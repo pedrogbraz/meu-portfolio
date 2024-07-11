@@ -51,7 +51,7 @@ export default function Header() {
                 <ListItem href="/sobre-mim" title="Sobre mim">
                   Conheça mais sobre mim e o que eu faço.
                 </ListItem>
-                <ListItem href="/meus-projetos" title="Projetos">
+                <ListItem href="/projetos" title="Projetos">
                   Todos os meus projetos que venho desenvolvendo.
                 </ListItem>
               </ul>
