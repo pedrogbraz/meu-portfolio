@@ -1,12 +1,12 @@
 import Banner from "@/components/banner";
-import Languagens from "@/components/languagens";
+import Pontos from "@/components/pontos";
 
 export default function Home() {
   return (
     <>
       <main className="">
         <Banner />
-        <Languagens />
+        <Pontos />
       </main>
     </>
   );
