@@ -12,10 +12,14 @@ export default function Pontos() {
       <div className="px-8 sm:px-12 lg:px-16 py-8">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:justify-between">
           <div className="mx-auto max-w-lg text-center lg:text-start lg:mx-0">
-            <h2 className="text-3xl font-bold sm:text-4xl">O que não pode faltar</h2>
+            <h2 className="text-3xl font-bold sm:text-4xl">
+              O que não pode faltar
+            </h2>
 
             <p className="mt-4 text-[--textColor]">
-            Para criar um site perfeito, é essencial considerar a otimização, um bom visual, segurança e responsividade. Em meus projetos, todos esses elementos são sempre priorizados.
+              Para criar um site perfeito, é essencial considerar a otimização,
+              um bom visual, segurança e responsividade. Em meus projetos, todos
+              esses elementos são sempre priorizados.
             </p>
 
             <a
@@ -80,6 +84,17 @@ export default function Pontos() {
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-[--textColor]">
                 Desenvolver um site exige modo escuro.
+              </p>
+            </div>
+            <div className="block rounded-xl hover:scale-[1.02] border border-[#999]/20 p-4 shadow-sm hover:border-red-700 focus:outline-none focus:ring duration-200">
+              <span className="inline-block rounded-xl shadow-lg bg-red-300/80 p-2">
+                <IoInvertMode className="text-red-700 size-8" />
+              </span>
+
+              <h2 className="mt-2 font-semibold">Escalavél</h2>
+
+              <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-[--textColor]">
+                Priorizo escalabilidade em meus projetos.
               </p>
             </div>
           </div>
