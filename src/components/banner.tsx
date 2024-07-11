@@ -6,20 +6,20 @@ export default function Banner() {
           Olá, eu sou Pedro Gontijo Braz.
         </h1>
         <p className="text-[1.125rem] text-[--textColor] lg:w-[55%]">
-          Como desenvolvedor <b className="font-semibold">front-end</b>, me
+          Como desenvolvedor <b className="font-medium">front-end</b>, me
           destaco em criar{" "}
-          <b className="font-semibold">
+          <b className="font-medium">
             soluções inovadoras que impulsionam o sucesso dos projetos.
           </b>{" "}
           Meu foco está em criar experiências digitais{" "}
-          <b className="font-semibold">dinâmicas</b> e{" "}
-          <b className="font-semibold">visualmente atraentes</b>, priorizando a{" "}
-          <b className="font-semibold">colaboração</b> e a{" "}
-          <b className="font-semibold">comunicação</b> para garantir resultados
+          <b className="font-medium">dinâmicas</b> e{" "}
+          <b className="font-medium">visualmente atraentes</b>, priorizando a{" "}
+          <b className="font-medium">colaboração</b> e a{" "}
+          <b className="font-medium">comunicação</b> para garantir resultados
           excepcionais.
         </p>
         <div className="flex gap-4">
-          <a href="#" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm hover:scale-[1.03] text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150 ease-in-out">
+          <a href="#" className="inline-flex items-center px-5 py-3 border border-transparent text-sm font-medium rounded shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-blue-500 duration-200 ease-in-out">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
