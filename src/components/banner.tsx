@@ -1,8 +1,10 @@
+import { IoCheckmarkDone } from "react-icons/io5";
+
 export default function Banner() {
   return (
     <>
-      <main className="w-[100%] h-[100vh] flex flex-col px-8 gap-8 sm:px-12 lg:px-16 justify-center">
-        <h1 className="text-[8vw] lg:text-[6vw] leading-[1.04] font-semibold lg:w-[70%]">
+      <main className="w-[100%] h-[100vh] flex flex-col gap-8 px-8 sm:px-16 lg:px-28 justify-center">
+        <h1 className="text-[8vw] lg:text-[5vw] leading-[1.04] text-[--subtitle] font-semibold lg:w-[60%]">
           Olá, eu sou Pedro Gontijo Braz.
         </h1>
         <p className="text-[1.125rem] text-[--textColor] lg:w-[55%]">
@@ -18,8 +20,12 @@ export default function Banner() {
           <b className="font-medium">comunicação</b> para garantir resultados
           excepcionais.
         </p>
+        <div className="flex flex-col items-start md:flex-row md:items-center gap-5">
+          <span className="flex items-center gap-1 text-[--textColor]"><IoCheckmarkDone className="text-green-500 size-5" />CLT/PJ/Freelancer</span>
+          <span className="flex items-center gap-1 text-[--textColor]"><IoCheckmarkDone className="text-green-500 size-5" />Disponível para projetos</span>
+        </div>
         <div className="flex gap-4">
-          <a href="#" className="inline-flex items-center px-5 py-3 border border-transparent text-sm font-medium rounded shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-blue-500 duration-200 ease-in-out">
+          <a href="#" className="inline-flex items-center px-5 py-3 border border-transparent text-sm font-medium rounded-xl shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-blue-500 duration-200 ease-in-out">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
