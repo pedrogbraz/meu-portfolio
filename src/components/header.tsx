@@ -22,37 +22,47 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Tecnologias",
     href: "/tecnologias",
     description:
-      "Ferramentas que uso para construir websites e aplicativos.",
+      "Ferramentas que uso para construir websites e aplicativos",
   },
   {
     title: "Hardwares",
     href: "/hardwares",
     description:
-      "Conheça as peças que tenho em meu pc.",
+      "Conheça as peças que tenho em meu pc",
   },
   {
     title: "Periféricos",
     href: "/perifericos",
     description:
-      "Veja todos meus periféricos que uso no dia a dia.",
+      "Veja todos meus periféricos que uso no dia a dia",
   },
 ];
 
 export default function Header() {
   return (
-    <header className="w-[100vw] flex items-center justify-between md:justify-center fixed bg-[--color-white] py-2 px-8 sm:px-12 lg:px-16 border-[#999]/20 border-b">
+    <header className="w-[100vw] flex items-center justify-between md:justify-center rounded-2xl fixed z-50 bg-[--color-white] py-2 px-8 sm:px-16 lg:px-28 border-[#999]/20 border-b">
       <h1 className="font-bold text-xl text-[--textColor]">PGB</h1>
       <NavigationMenu className="hidden md:flex">
-        <NavigationMenuList className="">
+        <NavigationMenuList>
+        <NavigationMenuItem>
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Início
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Sobre</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="flex flex-col w-[400px] p-4 md:w-[200px] lg:w-[300px]">
                 <ListItem href="/sobre-mim" title="Sobre mim">
-                  Conheça mais sobre mim e o que eu faço.
+                  Conheça mais sobre mim e o que eu faço
+                </ListItem>
+                <ListItem href="/projetos" title="Cursos">
+                  Veja todos meus cursos que ja fiz
                 </ListItem>
                 <ListItem href="/projetos" title="Projetos">
-                  Todos os meus projetos que venho desenvolvendo.
+                  Todos os meus projetos que venho desenvolvendo
                 </ListItem>
               </ul>
             </NavigationMenuContent>
