@@ -1,12 +1,14 @@
 import Banner from "@/components/banner";
-import Pontos from "@/components/pontos";
+import Contacts from "@/components/contacts";
+import Points from "@/components/points";
 
 export default function Home() {
   return (
     <>
       <main className="">
         <Banner />
-        <Pontos />
+        <Points />
+        <Contacts />
       </main>
     </>
   );
