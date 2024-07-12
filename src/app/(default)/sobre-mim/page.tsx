@@ -1,6 +1,6 @@
 export default function SobreMim() {
   return (
-    <main className="h-[100vh] w-[100vw] px-8 sm:px-16 lg:px-28 flex flex-col justify-center gap-8 mb-6 lg:mb-0">
+    <main className="w-[100vw] px-8 sm:px-16 lg:px-28 flex flex-col justify-center gap-8 mb-6 pt-24">
       <h2 className="text-3xl text-[--subtitle] font-semibold sm:text-4xl">
         Sobre Mim
       </h2>
